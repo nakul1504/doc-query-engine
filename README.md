@@ -246,6 +246,22 @@ jobs:
 
 ---
 
+## Enhancements
+
+- Adding validations for limiting document upload size
+- Ability to accept multiple documents for ingestion
+- Ability to ingest multiple documents with Background Tasks 
+- Maintaining a chat-history upto last k-number of chats
+- Use of Redis with Celery for efficient cache management
+- Role based authorization for users
+- - Maintaining user-profiles for verification and activation.
+- Maintaining token limit for users for a certain amount of time
+- Maintain and training separate ML models
+- Adding support for other documents like .docx, .json etc.
+ 
+
+---
+
 ## ✅ License
 
 MIT License
