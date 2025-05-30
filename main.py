@@ -10,7 +10,11 @@ from src.exception.exception_handler import (
 )
 from src.middleware.request_middleware import RequestIDMiddleware
 
-app = FastAPI()
+app = FastAPI(
+    title="Doc Query Engine",
+    description="An API for document ingestion and RAG-based Q&A.",
+    version="1.0.0"
+)
 
 app.add_middleware(
     CORSMiddleware,

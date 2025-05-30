@@ -23,13 +23,13 @@ A document ingestion and Retrieval-Augmented Generation (RAG)-based Q&A backend 
 .
 ├── src/
 │   ├── api/                  # FastAPI routes
-│   ├── core/              # Embedding, retrieval, Q&A logic
-│   ├── exception/               # SQLAlchemy models
-│   ├── middleware/                 # Logging, security, config
-│   ├── models/
-│   ├── service/
-│   ├── util/
-├── tests/
+│   ├── core/                 # Embedding, retrieval, Q&A logic
+│   ├── exception/            # Exception handler
+│   ├── middleware/           # Middlewares for the application
+│   ├── models/               # SQLAlchemy models
+│   ├── service/              # Service layer 
+│   ├── util/                 # Utlities for error, logging etc.
+├── tests/                    # Containe unit tests for some endpoints and services
 │   ├── api/
 │   ├── service/
 ├── Dockerfile
